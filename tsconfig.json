@@ -2,9 +2,11 @@
   "compilerOptions": {
     "target": "es6",
     "module": "commonjs",
+    "outDir": "./dist",
     "moduleResolution": "node",
     "esModuleInterop": true,
     "strict": false,
     "skipLibCheck": true
-  }
+  },
+  "include": ["src/**/*"]
 }
